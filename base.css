@@ -72,7 +72,6 @@ h1.name{
     background-repeat: no-repeat;
 }
 
-
 .content {
     width: 1024px;
     margin: auto;
@@ -93,13 +92,22 @@ h1.name{
 }
 
 .personal_pages li:hover {
-    color: red;
+    color: #79babe;
 }
 
 .picture {
     margin: 20px auto;
     width: 70%;
 }
+
+.bio, .resume p{
+    padding: 80px;
+    margin: 20px;
+    background:#ebe8d7;
+    font-size: 30px 
+}
+
+
 
 .footer{
     width:100%;
