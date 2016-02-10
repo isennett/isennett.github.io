@@ -22,6 +22,9 @@ a {
     text-decoration: none;
     color: inherit;
 }
+li{
+    list-style: none;
+}
 
 h1.name{
     font-weight: 400;
@@ -47,7 +50,6 @@ h1.name{
 
 .header .nav_bar{
     float:right;
-    list-style: none;
     font-size: 25px;
 }
 
@@ -59,6 +61,10 @@ h1.name{
 
 .nav_bar li.active {
     font-weight: bold;
+    background-image: url("icon.png");
+    background-size: auto 70%;
+    background-position: left;
+    background-repeat: no-repeat;
 }
 
 .nav_bar li.passive {
@@ -108,32 +114,96 @@ h1.name{
 }
 .resume{
     padding: 80px;
-    margin: 20px;
+    margin: auto;
     background:#ebe8d7;
     font-size: 30px;
+    width: 1024px;
+    clear:both
 }
 
-.date, .location{
+.date{
     font-size: 30px;
     width:10%;
     float:left;
-    overflow: hidden;
+    padding-right: 5px;
+}
+.location{
+    font-size: 30px;
+    width:10%;
+    float:right;
+
 }
 
 .organization{
-    width:80%;
+    width:auto;
     float:left;
-    overflow: hidden;
+    padding-left:20px;
 }
 
 
 .section_item{
-    margin: 20px;
-    padding: 20px;
-    display: inline-block;
+    display: list-item;
     font-weight: lighter;
+    overflow:hidden;
+    margin: 30px;
+    padding:20px;
+    clear:both
+
 }
 
+.section_title{
+    background-image: url("icon.png");
+    background-size: auto 70%;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+.resume span{
+    font-weight: bold;
+}
+
+
+.discription li{
+    padding-bottom: 10px;
+    padding-left: 10%;
+/*    font-style: italic;*/
+    font-size: 25px;
+    width:80%;
+    clear: both;
+}
+
+
+.details li{
+    display:block;
+    padding-left: 30px;
+    font-size: 25px;
+    width:80%;
+    background-image: url("sub_icon.png");
+    background-size: auto 7px;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    clear: both;
+}
+
+.details .sub_detail{
+    display:block;
+    padding-left: 20px;
+    font-size: 25px;
+    width:80%;
+    background-image: url("square_icon.png");
+    background-size: auto 8px;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-left: 18%;
+    clear: both;
+
+}
+.skills_list, .class_list, .activity_list{
+    padding: 10px;
+    margin-left: 10%;
+}
 
 
 .footer{
