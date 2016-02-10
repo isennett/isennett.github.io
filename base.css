@@ -100,11 +100,38 @@ h1.name{
     width: 70%;
 }
 
-.bio, .resume p{
+.bio p{
     padding: 80px;
     margin: 20px;
     background:#ebe8d7;
     font-size: 30px 
+}
+.resume{
+    padding: 80px;
+    margin: 20px;
+    background:#ebe8d7;
+    font-size: 30px 
+}
+
+.date, .location{
+    font-size: 30px
+    width:10%;
+    float:left;
+    overflow: hidden;
+}
+
+.organization{
+    width:80%;
+    float:left;
+    overflow: hidden;
+}
+
+
+.section_item{
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    font-weight: lighter;
 }
 
 
