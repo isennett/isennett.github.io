@@ -48,7 +48,7 @@ h1.name{
 .header .nav_bar{
     float:right;
     list-style: none;
-    font-size: 25px
+    font-size: 25px;
 }
 
 .nav_bar li{
@@ -84,7 +84,7 @@ h1.name{
     margin: 20px;
     background:#ebe8d7;
     list-style: none;
-    font-size: 30px
+    font-size: 30px;
 }
 
 .personal_pages li {
@@ -104,17 +104,17 @@ h1.name{
     padding: 80px;
     margin: 20px;
     background:#ebe8d7;
-    font-size: 30px 
+    font-size: 30px;
 }
 .resume{
     padding: 80px;
     margin: 20px;
     background:#ebe8d7;
-    font-size: 30px 
+    font-size: 30px;
 }
 
 .date, .location{
-    font-size: 30px
+    font-size: 30px;
     width:10%;
     float:left;
     overflow: hidden;
