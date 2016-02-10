@@ -1,0 +1,111 @@
+/*Created by: Isabelle Sennett*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size:100%;
+    font-family: overall_font;
+    src: url(JosefinSans-Light.ttf);
+    color:#4d4d4d !important;
+}
+
+@font-face {
+    font-family: overall_font;
+    src: url(JosefinSans-Light.ttf);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1.name{
+    font-weight: 400;
+    font-size: 47px;
+
+}
+
+.header{
+    width:100%;
+    background: #c4dbd5;
+    padding: 20px 0;
+}
+
+.left{
+    display: inline-block;
+
+}
+.left, .right{
+    width:50%;
+    float:left;
+    overflow: hidden;
+}
+
+.header .nav_bar{
+    float:right;
+    list-style: none;
+    font-size: 25px
+}
+
+.nav_bar li{
+    display: inline-block;
+    padding-left: 25px;
+    margin: 30px; 
+}
+
+.nav_bar li.active {
+    font-weight: bold;
+}
+
+.nav_bar li.passive {
+    font-weight: 500;
+}
+
+.nav_bar li:hover {
+    background-image: url("icon.png");
+    background-size: auto 70%;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+
+.content {
+    width: 1024px;
+    margin: auto;
+    overflow: hidden;
+    clear: both;
+}
+
+.personal_pages {
+    padding: 10px 0;
+    margin: 20px;
+    background:#ebe8d7;
+    list-style: none;
+    font-size: 30px
+}
+
+.personal_pages li {
+    padding: 10px 20px;
+}
+
+.personal_pages li:hover {
+    color: red;
+}
+
+.picture {
+    margin: 20px auto;
+    width: 70%;
+}
+
+.footer{
+    width:100%;
+    background: #c4dbd5;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
