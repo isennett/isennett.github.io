@@ -26,9 +26,11 @@ li{
     list-style: none;
 }
 
+/* ----- NAVBAR --------------------------------------- */
 h1.name{
     font-weight: 400;
     font-size: 47px;
+    padding-top: 19px;
 
 }
 
@@ -78,6 +80,8 @@ h1.name{
     background-repeat: no-repeat;
 }
 
+
+/* ----- MAIN CONTENT --------------------------------------- */
 .content {
     width: 1024px;
     margin: auto;
@@ -85,6 +89,8 @@ h1.name{
     clear: both;
 }
 
+/* ----- HOMEPAGE --------------------------------------- */
+/* ----- links to github, linkedin & pintrest ----------------------- */
 .personal_pages {
     padding: 10px 0;
     margin: 20px;
@@ -101,17 +107,21 @@ h1.name{
     color: #79babe;
 }
 
+/* ----- picture --------------------------------------- */
 .picture {
     margin: 20px auto;
     width: 70%;
 }
 
+/* ----- ABOUT --------------------------------------- */
 .bio p{
     padding: 80px;
     margin: 20px;
     background:#ebe8d7;
     font-size: 30px;
 }
+
+/* ----- RESUME --------------------------------------- */
 .resume{
     padding: 80px;
     margin: auto;
@@ -127,11 +137,11 @@ h1.name{
     float:left;
     padding-right: 5px;
 }
+
 .location{
     font-size: 30px;
     width:10%;
     float:right;
-
 }
 
 .organization{
@@ -148,7 +158,6 @@ h1.name{
     margin: 30px;
     padding:20px;
     clear:both
-
 }
 
 .section_title{
@@ -167,7 +176,6 @@ h1.name{
 .discription li{
     padding-bottom: 10px;
     padding-left: 10%;
-/*    font-style: italic;*/
     font-size: 25px;
     width:80%;
     clear: both;
@@ -181,7 +189,7 @@ h1.name{
     width:80%;
     background-image: url("sub_icon.png");
     background-size: auto 7px;
-    background-position: left;
+    background-position: left 8px;
     background-repeat: no-repeat;
     margin-left: 10%;
     clear: both;
@@ -189,23 +197,28 @@ h1.name{
 
 .details .sub_detail{
     display:block;
-    padding-left: 20px;
+    padding-left: 15px;
     font-size: 25px;
     width:80%;
     background-image: url("square_icon.png");
-    background-size: auto 8px;
-    background-position: left;
+    background-size: auto 7px;
+    background-position: left 8px;
     background-repeat: no-repeat;
     margin-left: 18%;
     clear: both;
-
 }
+
+.skills_list li, .class_list li{
+    padding-bottom: 11px;
+}
+
 .skills_list, .class_list, .activity_list{
     padding: 10px;
     margin-left: 10%;
 }
 
 
+/* ----- FOOTER --------------------------------------- */
 .footer{
     width:100%;
     background: #c4dbd5;
